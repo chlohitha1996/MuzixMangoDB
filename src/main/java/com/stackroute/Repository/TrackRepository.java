@@ -12,6 +12,14 @@ import java.util.List;
 @Repository
 public interface TrackRepository extends MongoRepository<Track,Integer> {
 
+   /* To check if your track information exists in MongoRepository
+    Commands to find all tracks in console using mangoDb
+
+     mongo -u admin -p root123 --authenticationDatabase admin
+            use admin
+            show collections
+
+            db.track.find()*/
 
 
 
