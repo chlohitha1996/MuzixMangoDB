@@ -20,7 +20,11 @@ public class SwaggerConfig {
     }
 
     private ApiInfo appInfo(){
+<<<<<<< HEAD
         ApiInfo apiInfo = new ApiInfo("Music API(playmusic)","Spring boot Application for sound tracks","1.0","Terms Of service","Music aka playmusic","Apache License Version 2.0","https://www.apache.org/license.html");
+=======
+        ApiInfo apiInfo = new ApiInfo("Music API(playmusic)","Spring boot Application for sound tracks","1.0","Terms Of Service","Music aka playmusic","Apache License Version 2.0","https://www.apache.org/license.html");
+>>>>>>> 6667fbebf7e5d2dd27cd4003c607ab0d2e7665fb
         return apiInfo;
     }
 }
